@@ -212,7 +212,7 @@ class HomeParticles extends Component {
 
     return (
       <Fragment>
-        <Helmet pageTitle="Home Particles" />
+        <Helmet pageTitle="Monster Graphics" />
 
         {/* Start Header Area  */}
         <header className="header-area formobile-menu header--fixed default-color">
