@@ -1,14 +1,14 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers , FiSmartphone , FiMonitor } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiLayers />,
+        icon: <FiMonitor />,
         title: 'Website Development',
         description: ''
     },
     { 
-        icon: <FiMonitor />,
+        icon: <FiSmartphone />,
         title: 'Mobile App Development',
         description: ''
     },
