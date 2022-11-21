@@ -38,7 +38,8 @@ class ServiceThree extends Component{
                 <div className="row service-main-wrapper">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            {/* <a href="/service-details"> */}
+
                                 <div className="service service__style--2 text-left bg-gray">
                                     <div className="icon">
                                         {val.icon}
@@ -48,7 +49,7 @@ class ServiceThree extends Component{
                                         <p>{val.description}</p>
                                     </div>
                                 </div>
-                            </a>
+
                         </div>
                     ))}
                 </div>
