@@ -350,6 +350,18 @@ class HomeParticles extends Component {
         </div>
         {/* End Slider Area   */}
 
+        {/* 
+
+                const description2 = "Our services at a glance:";
+
+const namesItemOne2 = [
+  "We use the latest technologies such as Angular, Java, Swift, Groovy & Grails, MEAN, Python, React Native, Flutter, Phone-gap, Titanium Appcelerator, Ionic, Cordova, and Open Source Solutions (Magento, WordPress, Drupal, OpenCart, Shopify, etc.). In addition, we use leading frameworks like ASP.NET MVC, CakePHP, Laravel, Yii, Django, RoR, etc. We are skilled at developing applications for iPhone, Android, Windows Mobile, Tablets (both native applications as well as cross-platform technologies such as Xamarin and ReactNative).",
+];
+
+// Our project portfolio includes IT and Marketing solutions for industries like Automobiles, Aviation, Health and Fitness, Fin-tech, Pharmacy and Medicines, Real Estate, Information Technology, Law, Travel and Hospitality, Finance, Music, Computers and Hardware, Business and Services, and Home Interiors.
+
+
+*/}
         {/* Start Service Area  */}
         <div
           className="service-area creative-service-wrapper ptb--120 bg_color--1"
@@ -360,11 +372,29 @@ class HomeParticles extends Component {
               <div className="col-lg-12 col-12">
                 <div className="section-title text-left mb--30">
                   <span className="subtitle">What we can do for you</span>
-                  <h2 className="title">Services provide for you.</h2>
-                  <p className="description">
-                    There are many variations of services we can provide for
-                    you.
-                  </p>
+                  <h2 className="title">Our services at a glance:</h2>
+                  <p className="description"></p>
+                  <ul className="list-style--1">
+                    {[
+                      `We use the latest technologies such as React, Angular, Java,
+                        Swift, Groovy & Grails, MEAN, Python, React Native, Flutter,
+                        Phone-gap, Titanium Appcelerator, Ionic, Cordova, and Open
+                        Source Solutions (Magento, WordPress, Drupal, OpenCart,
+                        Shopify, etc.)`,
+                      `we use leading frameworks like
+                        ASP.NET MVC, CakePHP, Laravel, Yii, Django, RoR, etc.`,
+                      `We are skilled at developing applications for iPhone,
+                        Android, Windows Mobile, Tablets (both native applications
+                        as well as cross-platform technologies such as Xamarin and
+                        ReactNative).`,
+                    ].map((name, index) => {
+                      return (
+                        <li key={index}>
+                          <FiCheck /> {name}
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -399,9 +429,12 @@ class HomeParticles extends Component {
                     <span className="subtitle">Our project</span>
                     <h2 className="title">Some of our Recent Works</h2>
                     <p className="description">
-                      There are many variations of passages of Lorem Ipsum
-                      available, <br /> but the majority have suffered
-                      alteration.
+                      Our project portfolio includes IT and Marketing solutions
+                      for industries like Automobiles, Aviation, Health and
+                      Fitness, Fin-tech, Pharmacy and Medicines, Real Estate,
+                      Information Technology, Law, Travel and Hospitality,
+                      Finance, Music, Computers and Hardware, Business and
+                      Services, and Home Interiors.
                     </p>
                   </div>
                 </div>

@@ -121,7 +121,7 @@ class Business extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30 mb_sm--0">
                                     <span className="subtitle">What we can do for you</span>
-                                    <h2 className="title">Services provide for you.</h2>
+                                    <h2 className="title">Our services at a glance:</h2>
                                     <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                                 </div>
                             </div>
