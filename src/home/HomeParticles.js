@@ -332,7 +332,7 @@ class HomeParticles extends Component {
                           <div className="slide-btn">
                             <a
                               className="btn-default btn-large"
-                              href={`${value.buttonLink}`}
+                              href="mailto:Hello@monstergraphics.com"
                             >
                               {value.buttonText}
                             </a>
