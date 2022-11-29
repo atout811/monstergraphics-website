@@ -40,7 +40,7 @@ const ServiceList = [
     icon: <FiTrendingUp />,
     title: "Search Engine Marketing ",
     description:
-      "increase visibility in search engine primarily through ads",
+      "Increase visibility in search engine primarily through ads",
   },
 
   // {

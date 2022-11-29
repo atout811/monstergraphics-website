@@ -16,7 +16,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
-
 const BookReadyPro_img = (
   <img
     src="/assets/images/portfolio/interior/bookready.jpeg"
