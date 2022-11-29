@@ -22,8 +22,8 @@ const ServiceList = [
   {
     icon: (
       <img
-        width={42}
-        height={42}
+        width={44}
+        height={44}
         src="/assets/icons/digital-marketing.png"
         alt="Social media marketing"
       />

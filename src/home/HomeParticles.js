@@ -400,21 +400,17 @@ const namesItemOne2 = [
               <div className="col-lg-12 col-12">
                 <div className="section-title text-left mb--30">
                   <span className="subtitle">What we can do for you</span>
-                  <h2 className="title">Our services at a glance:</h2>
+                  <h2 className="title">Our services at a glance</h2>
                   <p className="description"></p>
                   <ul className="list-style--1">
                     {[
                       `We use the latest technologies such as React, Angular, Java,
-                        Swift, Groovy & Grails, MEAN, Python, React Native, Flutter,
-                        Phone-gap, Titanium Appcelerator, Ionic, Cordova, and Open
-                        Source Solutions (Magento, WordPress, Drupal, OpenCart,
-                        Shopify, etc.)`,
-                      `we use leading frameworks like
+                        Swift, Python, Titanium Appcelerator, Ionic, Cordova, and Open
+                        Source Solutions`,
+                      `We use leading frameworks like
                         ASP.NET MVC, CakePHP, Laravel, Yii, Django, RoR, etc.`,
-                      `We are skilled at developing applications for iPhone,
-                        Android, Windows Mobile, Tablets (both native applications
-                        as well as cross-platform technologies such as Xamarin and
-                        ReactNative).`,
+                      `We are skilled at developing Mobile Apps (Native and cross-platform) using Flutter, Xamarin and
+                        ReactNative.`,
                     ].map((name, index) => {
                       return (
                         <li key={index}>
