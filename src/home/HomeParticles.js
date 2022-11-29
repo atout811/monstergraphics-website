@@ -17,18 +17,45 @@ import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import AboutThree from "../component/HomeLayout/homeOne/AboutThree";
 
-const Portfolio_image = (
+const BookReadyPro_img = (
   <img
-    src="/assets/images/portfolio/interior/portfolio-15.svg"
+    src="/assets/images/portfolio/interior/bookready.jpeg"
     alt="React Creative Agency"
   />
 );
-const Portfolio_image2 = (
+const EYEdentify_image = (
   <img
     src="/assets/images/portfolio/interior/portfolio-12.jpg"
     alt="React Creative Agency"
   />
 );
+
+const anamehani_img = (
+  <img src="/assets/images/portfolio/interior/mehani.jpeg" alt="ana mehani" />
+);
+
+const batota_img = (
+  <img src="/assets/images/portfolio/interior/batota.jpeg" alt="batota" />
+);
+
+const botatos_img = (
+  <img src="/assets/images/portfolio/interior/botatos.jpeg" alt="botatos" />
+);
+
+const brandsnest_img = (
+  <img
+    src="/assets/images/portfolio/interior/brandsnest.jpeg"
+    alt="brandsnest"
+  />
+);
+
+const wipo_img = (
+  <img
+    src="/assets/images/portfolio/interior/wipo (1).png"
+    alt="Wipo organization"
+  />
+);
+
 const Portfolio_image3 = (
   <img
     src="/assets/images/portfolio/interior/portfolio-13.jpg"
@@ -55,109 +82,110 @@ const SlideList = [
 
 const PortfolioList = [
   {
-    image: Portfolio_image,
-    category: "Agency",
+    image: BookReadyPro_img,
+    category: "",
     title: "BookReadyPro",
     link: "https://www.bookreadypro.com/",
-    description: `https://www.bookreadypro.com/
+    description: `
+    Book Ready Pro assists accountants and bookkeepers for tax preparation`,
+  },
 
-    BookReadyPro assists accountants and bookkeepers for tax preparation`,
-  },
   {
-    image: Portfolio_image2,
+    image: batota_img,
     category: "",
-    title: "Office Managemnt",
-    link: "https://extreme.stanford.edu/projects/eye-dentify/",
-    description:
-      "EYE-dentify is an innovative wearable device to track patients in high-volume surgical cataract campaigns in Ghana.",
-  },
-  {
-    image: Portfolio_image3,
-    category: "Company",
     title: "EbnBatota",
     link: "",
     description:
       "Ebn-batota is a double sided platform where travel enthusiasts meet with agencies.",
   },
   {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "Calivita",
-    link: "https://callvita.com/",
+    image: EYEdentify_image,
+    category: "",
+    title: "Eye Dentify",
+    link: "https://extreme.stanford.edu/projects/eye-dentify/",
     description:
-      "Callvita is offering a variety of products to provide a manifested connection between both any service provider and an End user.",
+      "It's an innovative wearable device to track patients in high-volume surgical cataract campaigns in Ghana.",
   },
   {
-    image: Portfolio_image3,
-    category: "Company",
+    image: anamehani_img,
+    category: "",
     title: "Ana Mehani",
     link: "https://www.anamehani.com/",
     description:
-      "It’s an application to provide a helpful service that can easily connect you with nearby and verified home maintenance service providers",
+      "Provide a helpful service that connects you with verified home maintenance service providers",
   },
   {
-    image: Portfolio_image3,
-    category: "Company",
+    image: brandsnest_img,
+    category: "",
     title: "The Brandsnest",
     link: "",
     description:
       "A marketplace for selling and shipping products from the US to Egypt.",
   },
   {
-    image: Portfolio_image3,
-    category: "Company",
+    image: wipo_img,
+    category: "",
     title: "TMCA",
     link: "",
     description: "An efficient tool for trademarks analysis.",
   },
   {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "PostMyProject",
-    link: "",
-    description:
-      "Online website that saves customers and contractors time and money by offering an online bidding platform to improve the service bidding process. ",
-  },
-  {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "TaxRabbit",
-    link: "",
-    description:
-      "TaxRabbit automates the process of submitting the VAT Tax reports to the Lebanese Ministry of finances website.",
-  },
-  {
-    image: Portfolio_image3,
-    category: "Company",
+    image: botatos_img,
+    category: "",
     title: "Potatocam",
     link: "",
     description:
       "Our native android application enables portrait mode in mobiles with a single camera.",
   },
-  {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "Semantic SEGMENTATION FOR AERIAL VIEWS",
-    link: "",
-    description:
-      "For solving the segmentation problem for objects in aerial views in the available iSAID dataset we represent a network.",
-  },
-  {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "Guidiza Chatbot",
-    link: "",
-    description:
-      "Creating a customized tour guide chatbot, to help tourists find out more information.",
-  },
-  {
-    image: Portfolio_image3,
-    category: "Company",
-    title: "MEMS BASED AIR QUALITY ANALYZER",
-    link: "",
-    description:
-      "Determining  gas leakage in factories and monitoring work environment quality.",
-  },
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "PostMyProject",
+  //   link: "",
+  //   description:
+  //     "Online website that saves customers and contractors time and money by offering an online bidding platform to improve the service bidding process. ",
+  // },
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "TaxRabbit",
+  //   link: "",
+  //   description:
+  //     "TaxRabbit automates the process of submitting the VAT Tax reports to the Lebanese Ministry of finances website.",
+  // },
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "Calivita",
+  //   link: "https://callvita.com/",
+  //   description:
+  //     "Callvita is offering a variety of products to provide a manifested connection between both any service provider and an End user.",
+  // },
+
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "Semantic SEGMENTATION FOR AERIAL VIEWS",
+  //   link: "",
+  //   description:
+  //     "For solving the segmentation problem for objects in aerial views in the available iSAID dataset we represent a network.",
+  // },
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "Guidiza Chatbot",
+  //   link: "",
+  //   description:
+  //     "Creating a customized tour guide chatbot, to help tourists find out more information.",
+  // },
+  // {
+  //   image: Portfolio_image3,
+  //   category: "Company",
+  //   title: "MEMS BASED AIR QUALITY ANALYZER",
+  //   link: "",
+  //   description:
+  //     "Determining  gas leakage in factories and monitoring work environment quality.",
+  // },
 ];
 
 class HomeParticles extends Component {
@@ -251,7 +279,7 @@ class HomeParticles extends Component {
                     <a href="#about">About</a>
                   </li>
                   <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">Projects</a>
                   </li>
                   <li>
                     <a href="#contact">Contact</a>
@@ -332,7 +360,7 @@ class HomeParticles extends Component {
                           <div className="slide-btn">
                             <a
                               className="btn-default btn-large"
-                              href="mailto:Hello@monstergraphics.com"
+                              href="#contact"
                             >
                               {value.buttonText}
                             </a>
